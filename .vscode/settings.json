@@ -1,0 +1,25 @@
+
+{
+  "conventionalCommits.scopes": [
+    "auth",
+    "ui",
+    "api",
+    "database",
+    "android",
+    "docs",
+    "test",
+    "aws",
+    "cloud"
+  ],
+  "conventionalCommits.gitmoji": false,
+  "conventionalCommits.promptScopes": true,
+  "conventionalCommits.promptBody": false,
+  "conventionalCommits.promptFooter": false,
+  "conventionalCommits.autoCommit": false,
+
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Always generate Git commit messages in Conventional Commits format: type(scope): description. Use English and lowercase. Allowed types: feat, fix, refactor, docs, style, test, perf, chore, ci. Choose the scope based on the changed module. Write a concise and meaningful description using imperative verbs. Do not use emojis or end with a period. Keep the first line under 72 characters. Never invent changes."
+    }
+  ]
+}
